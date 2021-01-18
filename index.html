@@ -1,1 +1,231 @@
-Hello world
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    
+    
+    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about">Moi</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#experience">Expérience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+            
+            </div>
+        
+        </nav>
+       
+        <section id="about" class="container-fluid">
+            <div class="col-xs-8 col-md-4 profile-picture">
+                <img src="images/johan.jpeg" alt="John" class="img-circle">
+            </div>
+            <div class="heading">
+                <h1>Hello, c'est moi Johan</h1>
+                <h3>Développeur Web</h3>
+                <a href="docs/cv_johan.pdf" class="button1">Télécharger CV</a>
+            </div>
+        </section>
+        
+        
+        <section id="skills">
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Compétences</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>HTML/PHP 85%</h5>
+                            </div>
+                        </div>
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>CSS 85%</h5>
+                            </div>
+                        </div>
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                <h5>SQL 70%</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                <h5>JQUERY 65%</h5>
+                            </div>
+                        </div>
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                <h5>ANGULAR 50%</h5>
+                            </div>
+                        </div>
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                <h5>SYMPHONY 50%</h5>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience">
+        
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Expérience Professionelle</h2>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>CG-Net informatique</h3>
+                                    <h4>Stagiaire</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 01/2020-02/2020 et 05/2018-06/2018</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Réalisation d'une application de gestion de clientelle en HTML/PHP/CSS/Javascript</p>
+                                    <p>Réalisation d'un site basé sur le yoga avec Wordpress</p>
+                                    <p>Réparations basiques sur du matérielles informatiques et de téléphonies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>La ferme des cochons gourmands</h3>
+                                    <h4>Ouvrier agricole</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2018-2020</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Charcutier</p>
+                                    <p>Conditionneur</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Max plus</h3>
+                                    <h4>Manutentionaire</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 08/2020-09/2020</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mise en rayon</p>
+                                    <p>Gestion des stocks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                
+                </ul>
+            </div>
+            
+        </section>
+                
+        <section id="education">
+            <div class="container">
+                 <div class="red-divider"></div>
+                <div class="heading">
+                    <h2>Education</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="education-block">
+                            <h5>2015 - 2018</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>La Présentation Notre-Dame - Saint-flour</h3>
+                            <h4>Baccalauréat S</h4>
+                            <div class="red-divider"></div>
+                            <p>Specialité mathématiques</p>
+                            <p>Mention assez bien</p>
+                        </div>
+                   </div>
+                     <div class="col-sm-4">
+                         <div class="education-block">
+                            <h5>2018 - 2020</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>Godefroy de Bouillon - Clermont-Ferrand</h3>
+                            <h4>BTS SIO</h4>
+                            <div class="red-divider"></div>
+                            <p>Option Slam</p>
+                            <p>Obtenue avec 13.02</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                         <div class="education-block">
+                            <h5>Depuis octobre 2020</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>Human Booster - Clermont-Ferrand</h3>
+                            <h4>Bachelor en developpement informatique</h4>
+                            <div class="red-divider"></div>
+                            <p>Apprentissage de Symphony</p>
+                            <p>Apprentissage d'Angular</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        
+        <section id="portfolio">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Portfolio</h2>
+                </div>
+                <img src="images/portfolio.jpg" alt="En cours">
+                <h2>Cette partie est en construction.</h2>
+            
+            </div>
+            
+        </section>
+               
+        
+        <footer class="text-center">
+            <a href="#about">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+        </footer>
+                
+        
+        
+    </body>
+
+</html>
