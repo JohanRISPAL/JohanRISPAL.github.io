@@ -1,0 +1,64 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	position: relative;
+	background-image: url("../image/background.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.row{
+	margin: 0 !important;
+}
+
+.footer{
+	position: absolute; 
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer p{
+	width: 100%;
+}
+
+.title{
+	text-align: center;
+}
+
+.title h4{
+	margin: 0;
+	color: white;
+}
+
+.deletePlayer{
+	width: 20vh;
+	height: 20px;
+}
+
+.errorEmpty{
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.col.l12{
+	margin-top: 5%;
+	text-align: center;
+}
+
+#confirm{
+	width: 100%;
+}
+
+.player{
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 1px solid white;
+}
+
+.col.l4{
+	margin-bottom: 1%;
+}
