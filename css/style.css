@@ -149,6 +149,12 @@ section .heading h2
 {
     text-shadow: 1px 1px 1px #000;
 }
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* EXPERIENCE */
 #experience
